@@ -4,8 +4,10 @@
 #SBATCH --time=32:00:00   # walltime
 #SBATCH --ntasks=32   # number of processor cores (i.e. tasks)
 #SBATCH --nodes=1   # number of nodes
-#SBATCH --mem 190GB   # memory per CPU core
+#SBATCH --mem 1500GB   # memory per CPU core
 #SBATCH -J bracken2byiuld   # job name
+#SBATCH --output=/resnick/groups/enviromics/sal/metagenomics_wf/logs/bracken_build.out
+
 # Notify at the beginning, end of job and on failure.
 
 
