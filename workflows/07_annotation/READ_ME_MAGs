@@ -1,0 +1,8 @@
+After predicting proteins with PROKKA 
+
+Extract proteins wiht COG annotations
+# extract_cds_for_kallisto.py
+
+Make index with kallisto 
+kallisto index -i kallisto/mags.idx mag_cds_with_cog.fna
+

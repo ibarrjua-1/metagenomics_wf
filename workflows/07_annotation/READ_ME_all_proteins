@@ -1,0 +1,10 @@
+Annotation Pipeline
+
+Annote all samples with Prokka. 
+Dereplicate all proteins with ANI 99% or greater. 
+with TBD 
+
+Then run extract_cds_for_kallisto.py 
+(this will get all the annotations with COG)
+
+Then run kallisto on samples 
